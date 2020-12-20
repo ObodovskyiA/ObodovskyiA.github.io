@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study</title>
+</head>
+<style>
+    .title{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .subtitle{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .list_main{
+        list-style-type: square;
+    }
+    .list_num{
+        list-style-type: decimal;
+    }
+    .list_letters{
+        list-style-type: lower-alpha;
+    }
+    .list_ar{
+        list-style-type: upper-roman;
+    }
+    .list_last{
+        list-style-type: lower-roman;
+    }
+    .list_circle{
+        list-style-type: disc;
+    }
+    button{
+        margin: 50px 500px;
+        display: block;
+        font-size: 26px;
+        border-radius: 10px;
+        background-color: red;
+        width:200px;
+        height: 70px;
+        cursor: pointer;
+        transition: .7s all;
+    }
+    button:hover{
+        width:300px;
+        height: 100px;
+        font-size: 32px;
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div class="title">Розклад уроків:</div>
+    <div class="subtitle">Робочі дні</div>
+    <ul class="list_main">
+        <li>Понеділок
+            <ul class="list_num">
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+            </ul>
+        </li>
+        <li>Вівторок
+            <ul class="list_num">
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+            </ul>
+        </li>
+        <li>Середа
+            <ul class="list_letters">
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+            </ul>
+        </li>
+        <li>Четвер
+            <ul class="list_ar">
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+            </ul>
+        </li>
+        <li>П'ятниця
+            <ul class="list_last">
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+                <li>Алгебра</li>
+            </ul>
+        </li>
+    </ul>
+    <div class="subtitle">Вихідні дні</div>
+    <ul class="list_circle">
+        <li>Субота</li>
+        <li>Неділя</li>
+    </ul>
+    <a href="index.html"><button>На головну</button></a>
+</body>
+</html>
